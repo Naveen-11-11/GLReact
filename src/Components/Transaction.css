@@ -1,0 +1,159 @@
+.dashboard1{
+    display: flex;
+    gap:2rem;
+    align-items: center;
+}
+.transaction {
+    width: 650px;
+    margin: 1rem 0;
+    padding: 20px ;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height:420px;
+}
+
+.title-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    font-size:16px;
+    margin: 0;
+}
+.title p {
+    font-size: 12px;
+}
+
+.all {
+    color: #4F46E5;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #e0e0e0;
+    
+    
+}
+ .list:nth-child(3){
+    box-shadow: 0px 4px 12px  #e0e0e0;
+}
+
+.list:last-child {
+    border-bottom: none;
+}
+
+.status {
+    flex: 0 1 20%;  
+    /* flex:1; */
+    font-size:12px;
+}
+
+.card-details {
+    flex: 0 1 25%;
+    /* flex:1; */
+    font-size:12px;
+}
+
+.dollars {
+    flex: 0 1 20%;
+    /* flex:1; */
+    font-size:12px;
+}
+
+.website {
+    flex: 0 1 15%;
+    /* flex:1; */
+    font-size:12px;
+}
+
+.dot {
+    flex: 0 1 15%;
+    /* flex:1; */
+    text-align: center;
+    font-size:12px; 
+    font-weight: 900;
+}
+
+#completed {
+    background-color: #DCFCE7;
+    color: #22C55E;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+#pending {
+    background-color: #FEF9C3;
+    color: #FACC15;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+#canceled {
+    background-color: #FEE2E2;
+    color: #EF4444;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.status span {
+    width: 8px;
+    height: 8px;
+    background-color: currentColor;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+ .recent-customers{
+    background: #fff;
+    box-shadow: 0 4px 12px  rgba(0, 0, 0, 0.1);
+    margin: 1rem 0 ;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    font-size: 12px;
+   
+}
+.customers{
+    display: flex;
+    gap :2rem;
+    padding: 3px;
+    align-items: center;
+    width: 100%;
+}
+.image  {
+   flex:0;
+}
+.con {
+    flex: 0 1 55%;
+    text-align: left;
+}
+.price{
+    flex:0 1 20%;
+    text-align: left;
+} 
+.customer-all{
+    text-decoration: none;
+    color:#151518;
+    opacity: 0.6;
+}

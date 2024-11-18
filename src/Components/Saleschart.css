@@ -1,0 +1,97 @@
+.sales-reports h2 {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.date-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+}
+
+.btn-chart {
+    display: flex;
+    gap: 1rem
+}
+
+.date-buttons button {
+    padding: 5px 6px;
+    border: none;
+    background: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.date-buttons button:hover {
+    background: #e0e0e0;
+}
+
+.export-btn {
+    padding: 5px 10px;
+    background: #007bff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+.sales-reports {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.chart-container-1 {
+    width: 660px;
+    height: 100%;
+}
+
+@media (max-width : 768px) {
+    .chart-container-1 {
+        width: auto;
+        height: auto;
+    }
+
+    .date-buttons {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .sales-reports {
+        width: 280px;
+        height: auto;
+        display: flex;
+        gap: 2rem;
+       
+    }
+
+    .btn-chart {
+        display: flex;
+        gap: 0.5rem;
+
+    }
+
+    .date-buttons button {
+        border: none;
+        background: #f0f0f0;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size:8px;
+        white-space: nowrap;
+    }
+    .sales-reports h2 {
+        font-size: 0.5rem;
+        white-space: nowrap;
+    }
+}

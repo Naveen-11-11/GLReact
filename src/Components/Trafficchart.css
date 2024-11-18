@@ -1,0 +1,64 @@
+.time-period {
+    font-size: 12px;
+    color: #777;
+    text-align: right;
+    margin-bottom: 1rem;
+
+}
+
+.source {
+    margin: 0.5rem;
+
+
+}
+
+.bar {
+    flex: 1;
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.fill {
+    height: 100%;
+    background: #4F46E5;
+    border-radius: 4px;
+
+}
+
+.traffic-sources {
+
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 3rem;
+}
+
+.traffic-sources h2 {
+    font-size: 14px;
+    margin-bottom: 1rem;
+}
+
+.title {
+    padding-bottom: 1.5rem;
+}
+
+.title-content {
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.span-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
