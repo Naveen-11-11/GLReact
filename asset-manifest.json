@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GLReact/static/css/main.c5944dec.css",
+    "main.js": "/GLReact/static/js/main.e221b3a2.js",
+    "static/js/453.2ab08b63.chunk.js": "/GLReact/static/js/453.2ab08b63.chunk.js",
+    "index.html": "/GLReact/index.html",
+    "main.c5944dec.css.map": "/GLReact/static/css/main.c5944dec.css.map",
+    "main.e221b3a2.js.map": "/GLReact/static/js/main.e221b3a2.js.map",
+    "453.2ab08b63.chunk.js.map": "/GLReact/static/js/453.2ab08b63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5944dec.css",
+    "static/js/main.e221b3a2.js"
+  ]
+}
